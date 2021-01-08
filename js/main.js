@@ -51,7 +51,7 @@ function send2AFC() {
 
 var answers = JSON.parse(window.sessionStorage.getItem("answers"));
 
-var firebaseConfig = {
+  var firebaseConfig = {
     apiKey: "AIzaSyApk46oWmXgxFRPYOoHrQn7mrJDHP7ghRM",
     authDomain: "groupd-cf1fa.firebaseapp.com",
     projectId: "groupd-cf1fa",
@@ -477,14 +477,14 @@ function sendRank(){
     
     
       var firebaseConfig = {
-        apiKey: "AIzaSyApk46oWmXgxFRPYOoHrQn7mrJDHP7ghRM",
-        authDomain: "groupd-cf1fa.firebaseapp.com",
-        projectId: "groupd-cf1fa",
-        storageBucket: "groupd-cf1fa.appspot.com",
-        messagingSenderId: "144005755270",
-        appId: "1:144005755270:web:ccb8c33005139971f8bc07",
-        measurementId: "G-Z7NY4F751W"
-      };
+    apiKey: "AIzaSyApk46oWmXgxFRPYOoHrQn7mrJDHP7ghRM",
+    authDomain: "groupd-cf1fa.firebaseapp.com",
+    projectId: "groupd-cf1fa",
+    storageBucket: "groupd-cf1fa.appspot.com",
+    messagingSenderId: "144005755270",
+    appId: "1:144005755270:web:ccb8c33005139971f8bc07",
+    measurementId: "G-Z7NY4F751W"
+  };
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
     const db = firebase.firestore();
@@ -510,15 +510,15 @@ function submit(){
     var occupation = document.getElementById("occupation").value
     var comment = document.getElementById("comment").value
  
-    var firebaseConfig = {
-        apiKey: "AIzaSyApk46oWmXgxFRPYOoHrQn7mrJDHP7ghRM",
-        authDomain: "groupd-cf1fa.firebaseapp.com",
-        projectId: "groupd-cf1fa",
-        storageBucket: "groupd-cf1fa.appspot.com",
-        messagingSenderId: "144005755270",
-        appId: "1:144005755270:web:ccb8c33005139971f8bc07",
-        measurementId: "G-Z7NY4F751W"
-    };
+  var firebaseConfig = {
+    apiKey: "AIzaSyApk46oWmXgxFRPYOoHrQn7mrJDHP7ghRM",
+    authDomain: "groupd-cf1fa.firebaseapp.com",
+    projectId: "groupd-cf1fa",
+    storageBucket: "groupd-cf1fa.appspot.com",
+    messagingSenderId: "144005755270",
+    appId: "1:144005755270:web:ccb8c33005139971f8bc07",
+    measurementId: "G-Z7NY4F751W"
+  };
  
      // Initialize Firebase
      firebase.initializeApp(firebaseConfig);
